@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9D938568-24A5-36C2-A652-F20BA42064A5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>example-libcurl</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example-libcurl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example-libcurl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example-libcurl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example-libcurl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example-libcurl.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example-libcurl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example-libcurl.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example-libcurl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/lizheng1/.conan2/p/b/libcub62f1425cea2c/p/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CURL_STATICLIB=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CURL_STATICLIB=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\lizheng1\.conan2\p\b\libcub62f1425cea2c\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lizheng1\.conan2\p\b\libcub62f1425cea2c\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\lizheng1\.conan2\p\b\libcub62f1425cea2c\p\lib\libcurl.lib;C:\Users\lizheng1\.conan2\p\b\opens20c7436e534e1\p\lib\libssld.lib;C:\Users\lizheng1\.conan2\p\b\opens20c7436e534e1\p\lib\libcryptod.lib;crypt32.lib;ws2_32.lib;advapi32.lib;user32.lib;bcrypt.lib;C:\Users\lizheng1\.conan2\p\b\zlib428cc88ec2f67\p\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/lizheng1/.conan2/p/b/libcub62f1425cea2c/p/lib;C:/Users/lizheng1/.conan2/p/b/libcub62f1425cea2c/p/lib/$(Configuration);C:/Users/lizheng1/.conan2/p/b/opens20c7436e534e1/p/lib;C:/Users/lizheng1/.conan2/p/b/opens20c7436e534e1/p/lib/$(Configuration);C:/Users/lizheng1/.conan2/p/b/zlib428cc88ec2f67/p/lib;C:/Users/lizheng1/.conan2/p/b/zlib428cc88ec2f67/p/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/Debug/example-libcurl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/Debug/example-libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/lizheng1/.conan2/p/b/libcu5dafc0d77f89f/p/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CURL_STATICLIB=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CURL_STATICLIB=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\lizheng1\.conan2\p\b\libcu5dafc0d77f89f\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lizheng1\.conan2\p\b\libcu5dafc0d77f89f\p\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\lizheng1\.conan2\p\b\libcu5dafc0d77f89f\p\lib\libcurl.lib;C:\Users\lizheng1\.conan2\p\opens93c6790eaef68\p\lib\libssl.lib;C:\Users\lizheng1\.conan2\p\opens93c6790eaef68\p\lib\libcrypto.lib;crypt32.lib;ws2_32.lib;advapi32.lib;user32.lib;bcrypt.lib;C:\Users\lizheng1\.conan2\p\zlibd92421645ad5d\p\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/lizheng1/.conan2/p/b/libcu5dafc0d77f89f/p/lib;C:/Users/lizheng1/.conan2/p/b/libcu5dafc0d77f89f/p/lib/$(Configuration);C:/Users/lizheng1/.conan2/p/opens93c6790eaef68/p/lib;C:/Users/lizheng1/.conan2/p/opens93c6790eaef68/p/lib/$(Configuration);C:/Users/lizheng1/.conan2/p/zlibd92421645ad5d/p/lib;C:/Users/lizheng1/.conan2/p/zlibd92421645ad5d/p/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/Release/example-libcurl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/Release/example-libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/MinSizeRel/example-libcurl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/MinSizeRel/example-libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/RelWithDebInfo/example-libcurl.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/RelWithDebInfo/example-libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl -BD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug --check-stamp-file D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\lizheng1\.conan2\p\opens93c6790eaef68\p\lib\cmake\conan-official-openssl-variables.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\cmakedeps_macros.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\cmake\conan_provider.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\conanfile.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl -BD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug --check-stamp-file D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\lizheng1\.conan2\p\opens93c6790eaef68\p\lib\cmake\conan-official-openssl-variables.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\cmakedeps_macros.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\cmake\conan_provider.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\conanfile.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl -BD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug --check-stamp-file D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\lizheng1\.conan2\p\opens93c6790eaef68\p\lib\cmake\conan-official-openssl-variables.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\cmakedeps_macros.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\cmake\conan_provider.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\conanfile.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl -BD:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug --check-stamp-file D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\lizheng1\.conan2\p\opens93c6790eaef68\p\lib\cmake\conan-official-openssl-variables.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeCXXCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeRCCompiler.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\3.27.5\CMakeSystem.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\CURLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSL-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\OpenSSLTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-debug.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-Target-release.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-debug-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIB-release-x86_64-data.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfig.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBConfigVersion.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\ZLIBTargets.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\conan\build\generators\cmakedeps_macros.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\cmake\conan_provider.cmake;D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\conanfile.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\src\main.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\ZERO_CHECK.vcxproj">
+      <Project>{1A138314-5932-30D5-9444-8A1050B72092}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\conan-v2\conan-cmake-v2-example\example-libcurl\build-win32-debug\CMakeFiles\0e0ef1ac0ef70670df8511100e228359\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{89833F8B-E4EF-3B9B-BAD0-4E5125AD389C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

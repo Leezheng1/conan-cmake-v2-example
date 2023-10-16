@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake
+C:/Users/lizheng1/.conan2/p/opens93c6790eaef68/p/lib/cmake/conan-official-openssl-variables.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/CMakeLists.txt
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/3.27.5/CMakeCCompiler.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/3.27.5/CMakeCXXCompiler.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/3.27.5/CMakeRCCompiler.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/CMakeFiles/3.27.5/CMakeSystem.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/CURL-Target-debug.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/CURL-Target-release.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/CURL-debug-x86_64-data.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/CURL-release-x86_64-data.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/CURLConfig.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/CURLConfigVersion.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/CURLTargets.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/OpenSSL-Target-debug.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/OpenSSL-Target-release.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/OpenSSL-debug-x86_64-data.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/OpenSSL-release-x86_64-data.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/OpenSSLConfig.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/OpenSSLConfigVersion.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/OpenSSLTargets.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/ZLIB-Target-debug.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/ZLIB-Target-release.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/ZLIB-debug-x86_64-data.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/ZLIB-release-x86_64-data.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/ZLIBConfig.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/ZLIBConfigVersion.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/ZLIBTargets.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/build-win32-debug/conan/build/generators/cmakedeps_macros.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/cmake/conan_provider.cmake
+D:/workspace/conan-v2/conan-cmake-v2-example/example-libcurl/conanfile.txt

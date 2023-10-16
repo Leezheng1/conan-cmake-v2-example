@@ -1,0 +1,9 @@
+include(default)
+[settings]
+arch=x86_64
+os=Windows
+compiler=msvc
+compiler.version=192
+compiler.cppstd=14
+[conf]
+tools.cmake.cmaketoolchain:generator=Visual Studio 16 2019

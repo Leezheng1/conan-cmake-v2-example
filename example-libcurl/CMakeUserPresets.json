@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "D:\\workspace\\conan-v2\\conan-cmake-v2-example\\example-libcurl\\build-win32-debug\\conan\\build\\generators\\CMakePresets.json"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "version": 3,
+    "vendor": {
+        "conan": {}
+    },
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "conan-default",
+            "displayName": "'conan-default' config",
+            "description": "'conan-default' configure using 'Visual Studio 16 2019' generator",
+            "generator": "Visual Studio 16 2019",
+            "cacheVariables": {
+                "CMAKE_POLICY_DEFAULT_CMP0091": "NEW"
+            },
+            "toolchainFile": "D:\\workspace\\conan-v2\\conan-cmake-v2-example\\example-libcurl\\build-win32-debug\\conan\\build\\generators\\conan_toolchain.cmake",
+            "binaryDir": "D:\\workspace\\conan-v2\\conan-cmake-v2-example\\example-libcurl\\build-win32-debug\\conan\\build"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "conan-release",
+            "configurePreset": "conan-default",
+            "configuration": "Release"
+        },
+        {
+            "name": "conan-debug",
+            "configurePreset": "conan-default",
+            "configuration": "Debug"
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "conan-release",
+            "configurePreset": "conan-default",
+            "configuration": "Release"
+        },
+        {
+            "name": "conan-debug",
+            "configurePreset": "conan-default",
+            "configuration": "Debug"
+        }
+    ]
+}
